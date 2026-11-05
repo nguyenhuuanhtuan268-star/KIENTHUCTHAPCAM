@@ -105,3 +105,40 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+.chapter-list {
+    display: grid;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.chapter {
+    background: white;
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+}
+
+.chapter h3 {
+    margin: 0 0 12px;
+    color: #2563eb;
+}
+
+.chapter ul {
+    padding-left: 22px;
+    margin-bottom: 0;
+}
+
+.chapter li {
+    padding: 7px 0;
+    line-height: 1.5;
+}
+
+.back-button {
+    border: none;
+    background: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
