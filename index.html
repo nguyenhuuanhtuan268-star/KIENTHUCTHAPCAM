@@ -1,73 +1,52 @@
-
-<!DOCTYPE html>
+----- BAT DAU NOI DUNG index.html -----
+<!doctype html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kho kiến thức, công thức, mẹo học và luyện thi dành cho học sinh lớp 12.">
+    <meta name="theme-color" content="#173b67">
+    <meta name="description" content="Kiến thức thập cẩm – Kho kiến thức, công thức, mẹo học và luyện tập dành cho học sinh lớp 12.">
     <title>Kiến thức thập cẩm</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#home" aria-label="Về trang chủ Kiến thức thập cẩm">
+                <span class="brand-mark" aria-hidden="true">📚</span>
+                <span class="brand-copy">
+                    <strong>Kiến thức thập cẩm</strong>
+                    <small>HỌC DỄ HIỂU · NHỚ LÂU · THI HIỆU QUẢ</small>
+                </span>
+            </a>
 
-    <header class="header">
-        <div class="logo">📚 Kiến thức thập cẩm</div>
-        <p>Học khó hiểu – Mau quên – Thi không hiệu quả</p>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Mở hoặc đóng menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav" id="siteNav" aria-label="Điều hướng chính">
+                <a href="#home">Trang chủ</a>
+                <a href="#tools">Công cụ học tập</a>
+                <a href="#about">Giới thiệu</a>
+            </nav>
+        </div>
     </header>
 
-    <main class="container">
-
-        <section class="welcome">
-            <h1>Chào mừng bạn!</h1>
-            <p>Cùng khám phá kho kiến thức lớp 12 nhé.</p>
-        </section>
-
-        <section class="subjects">
-            <h2>📖 Các Môn Học</h2>
-
-            <div class="subject-grid">
-                <a href="#" class="subject">📐 Toán Học</a>
-                <a href="#" class="subject">🧬 Sinh Học</a>
-                <a href="#" class="subject">🧪 Hóa Học</a>
-                <a href="#" class="subject">🌱 Công Nghệ Nông</a>
-                <a href="#" class="subject">🏛️ Lịch Sử</a>
-                <a href="#" class="subject">💻 Tin Học</a>
-            </div>
-        </section>
-
-        <section class="features">
-            <h2>🎯 Khu vực học tập</h2>
-
-            <div class="feature-grid">
-                <div class="feature">
-                    <h3>📚 Kiến thức</h3>
-                    <p>Tổng hợp lý thuyết theo từng môn.</p>
-                </div>
-
-                <div class="feature">
-                    <h3>💡 Mẹo học</h3>
-                    <p>Phương pháp ghi nhớ và học hiệu quả.</p>
-                </div>
-
-                <div class="feature">
-                    <h3>📝 Công thức</h3>
-                    <p>Tổng hợp công thức quan trọng.</p>
-                </div>
-
-                <div class="feature">
-                    <h3>⏱️ Luyện thi</h3>
-                    <p>Ôn tập và kiểm tra kiến thức.</p>
-                </div>
-            </div>
-        </section>
-
+    <main id="app" class="main-container" aria-live="polite">
+        <div class="loading-state">Đang tải nội dung...</div>
     </main>
 
-    <footer>
-        © 2026 Kiến thức thập cẩm
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <strong>📚 Kiến thức thập cẩm</strong>
+            <p>Học dễ hiểu – Nhớ lâu – Thi hiệu quả.</p>
+            <small>© <span id="currentYear">2026</span> Kiến thức thập cẩm. Nội dung được biên soạn phục vụ mục đích học tập.</small>
+        </div>
     </footer>
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+
+    <script defer src="data.js"></script>
+    <script defer src="app.js"></script>
 </body>
-                             </html>
-                             
+</html>
+----- KET THUC NOI DUNG index.html -----
+
