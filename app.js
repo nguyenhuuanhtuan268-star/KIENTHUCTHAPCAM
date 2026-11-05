@@ -1,5 +1,4 @@
 
------ BAT DAU NOI DUNG app.js -----
 /* =========================================================
    KIẾN THỨC THẬP CẨM - CHỨC NĂNG WEBSITE
    Không cần thư viện ngoài. Chạy trực tiếp trên Vercel.
@@ -518,6 +517,5 @@
 
     renderCurrentRoute();
 }());
------ KET THUC NOI DUNG app.js -----
 
                  
