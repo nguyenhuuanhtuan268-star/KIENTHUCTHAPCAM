@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="vi">
+<head>
+    <!-- MONETAG: paste the official zone tag here only when its Publisher instructions specify the <head> placement. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#243b72">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:title" content="Kiến thức thập cẩm">
+    <meta property="og:description" content="Không gian học tập, ghi chú và theo dõi tiến độ cá nhân.">
+    <meta name="description" content="Kiến thức thập cẩm – Học liệu hỗ trợ lớp 12 theo bộ sách Kết nối tri thức với cuộc sống, kèm công cụ và theo dõi tiến độ.">
+    <meta name="color-scheme" content="light">
+    <title>Kiến thức thập cẩm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="#home" aria-label="Về trang chủ Kiến thức thập cẩm">
+                <span class="brand-mark" aria-hidden="true">📚</span>
+                <span class="brand-copy">
+                    <strong>Kiến thức thập cẩm</strong>
+                    <small>HỌC DỄ HIỂU · NHỚ LÂU · THI HIỆU QUẢ</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Mở hoặc đóng menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav" id="siteNav" aria-label="Điều hướng chính">
+                <a href="#home">Trang chủ</a>
+                <a href="#tools">Công cụ học tập</a>
+                <a href="#progress">Tiến độ</a>
+                <a href="#bookmarks">Bài đã lưu</a>
+                <a href="#knowledge">Kiến thức mới</a>
+                <a href="#about">Giới thiệu</a>
+                <a href="#admin" id="adminNavLink" hidden>Quản trị</a>
+            </nav>
+            <div class="account-bar" id="accountBar" hidden>
+                <span id="accountEmail" class="account-email"></span>
+                <span id="syncStatus" class="sync-status" aria-live="polite"></span>
+                <button id="logoutButton" class="logout-button" type="button">Đăng xuất</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Khu vực nội dung chính. Mã Monetag được cài theo vị trí mà Publisher Dashboard hướng dẫn. -->
+
+    <main id="app" class="main-container" aria-live="polite">
+        <div class="loading-state">Đang tải nội dung...</div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <strong>📚 Kiến thức thập cẩm</strong>
+            <p>Học dễ hiểu – Nhớ lâu – Thi hiệu quả.</p>
+            <small>© <span id="currentYear">2026</span> Kiến thức thập cẩm. Nội dung được biên soạn phục vụ mục đích học tập.</small><p class="footer-links"><a href="#privacy">Quyền riêng tư và dữ liệu</a><span>·</span><a href="#about">Giới thiệu</a></p>
+        </div>
+    </footer>
+
+    <script defer crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0"></script>
+    <script defer src="config.js"></script>
+    <script defer src="data.js"></script>
+    <script defer src="app.js"></script>
+</body>
+</html>
+
